@@ -12,11 +12,13 @@ Banco de dados relacional em SQL Server para gestao de estoque e vendas de uma e
 
 Executar na ordem, em uma instancia do SQL Server (SSMS ou Azure Data Studio):
 
-1. `schema.sql` - cria o banco e as tabelas
-2. `seed_data.sql` - popula com dados de exemplo
-3. `analysis.sql` - consultas de analise sobre o banco
+1. `Tabelas.sql` - cria o banco e as tabelas
+2. `DadosInseridos.sql` - Coloca os dados 
+3. `Analises.sql` - consultas de analise sobre o banco
 
 ## Analises incluidas
+
+Usei alguns codigos para buscar informações que costumam serem muito necessarias para gerenciar um estoque mas da pra fazer muitos outros.
 
 - Produtos com estoque abaixo do minimo
 - Lotes proximos do vencimento
@@ -28,6 +30,4 @@ Executar na ordem, em uma instancia do SQL Server (SSMS ou Azure Data Studio):
 - Pedidos por mes
 - Volume movimentado por armazem
 
-## Observacoes
 
-Nomes de fabricantes, armazens e clientes sao ficticios, montados para simular a operacao de uma distribuidora de insumos agricolas com centros de distribuicao em MG, PR, MT e BA.
